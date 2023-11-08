@@ -1,0 +1,68 @@
+/* CSS for the Electronic Device Information page */
+body {
+    background-image: url('bg4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: rgb(231, 12, 122);
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .section {
+    color: #f2f1f1;
+    padding: 50px 0;
+  }
+  
+  .device-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .device {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+.device img {
+    max-width: 100%; 
+    height: auto; 
+    max-height: 200px; 
+  }
+  
+  
+  footer {
+    background: rgb(231, 12, 122);
+    color: #f3ebf1;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
