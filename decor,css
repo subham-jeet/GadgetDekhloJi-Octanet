@@ -1,0 +1,64 @@
+body {
+    background-color: aquamarine;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+.common-section {
+    height: 200px; /* Set a height for your sections */
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+#bedroom .common-section {
+    background-image: url('bedroom.jpg');
+}
+
+#kitchen .common-section {
+    background-image: url('kitchen.jpg');
+}
+
+#backyard .common-section {
+    background-image: url('backyard.jpg');
+}
+
+#dining .common-section {
+    background-image: url('dining.jpg');
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
